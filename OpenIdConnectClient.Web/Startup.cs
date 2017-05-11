@@ -55,7 +55,7 @@ namespace OpenIdConnectClient.Web
             app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
             {
                 ClientId = "PandaOpenIdConnectClient",
-                Authority = "https://localhost:44391",
+                Authority = "https://localhost:44384",
                 SignInScheme = "cookie"
             });
 
